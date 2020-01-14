@@ -1,0 +1,64 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body
+{
+    background: black
+}
+
+.loading 
+{
+    position: relative;
+}
+
+
+/*
+
+.circle 
+{
+    position: absolute;
+    background: transparent;
+    border: #868686e0 1.45px solid;
+    border-radius: 80%;
+    width: 10%;
+    height: 90%;
+    top: 7%;
+    transform: rotateY(-30deg) rotateX(14deg);
+}
+
+.circlePos1
+{
+    left: 46%;
+}
+
+.circlePos2
+{
+    left: 47%;
+}
+
+.circlePos3
+{
+    left: 48%;
+}
+
+.circlePos4
+{
+    left: 49%;
+}
+
+.circlePos5
+{
+    left: 50%;
+}
+
+.circlePos6
+{
+    left: 51%;
+}
+
+/*
