@@ -17,48 +17,85 @@ body
 }
 
 
-/*
+
 
 .circle 
 {
     position: absolute;
     background: transparent;
-    border: #868686e0 1.45px solid;
+    border: #868686 1.65px solid;
     border-radius: 80%;
-    width: 10%;
-    height: 90%;
-    top: 7%;
-    transform: rotateY(-30deg) rotateX(14deg);
+    width: 118px;
+    height: 943px;
+    top: -20%;
+    transform: rotateY(-39deg) rotateZ(55deg);
+    transition-property: all;
 }
 
 .circlePos1
 {
-    left: 46%;
+    left: 61%;
+}
+
+.circlePos1:hover 
+{
+    border: #dfdfdf 1.85px solid;
+    box-shadow: 0 0 1em white ;
+    transition-delay: 3s;
 }
 
 .circlePos2
 {
-    left: 47%;
+    left: 62.5%;
+}
+
+.circlePos2:hover 
+{
+    border: #dfdfdf 1.85px solid;
+    box-shadow: 0 0 1em white ;
 }
 
 .circlePos3
 {
-    left: 48%;
+    left: 64%;
+}
+
+.circlePos3:hover 
+{
+    border: #dfdfdf 1.85px solid;
+    box-shadow: 0 0 1em white ;
+
 }
 
 .circlePos4
 {
-    left: 49%;
+    left: 65.5%;
+}
+
+.circlePos4:hover 
+{
+    border: #dfdfdf 1.85px solid;
+    box-shadow: 0 0 1em white ;
 }
 
 .circlePos5
 {
-    left: 50%;
+    left: 67%;
+}
+
+.circlePos5:hover
+{
+    border: #dfdfdf 1.85px solid;
+    box-shadow: 0 0 1em white ;
 }
 
 .circlePos6
 {
-    left: 51%;
+    left: 68.5%;
 }
 
-/*
+.circlePos6:hover
+{
+    border: #dfdfdf 1.85px solid;
+    box-shadow: 0 0 1em white ;
+}
