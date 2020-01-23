@@ -1,16 +1,31 @@
+
 * 
 {
     margin: 0;
     padding: 0;
-
 }
-
 
 body
 {
-    background: black
+    background: black;
+    
 }
-
+/* LOADING  */
+.loadingText 
+{
+    position: absolute;
+    color: white;
+    top: 34%;
+    left: 44%;
+    font-size: 30pt;
+    font-family: Open Sans Condense;
+    font-style:italic;
+}
+.loadingDots 
+{
+    position: absolute;
+        
+}
 .loadingBorder
 {
     position: absolute;
