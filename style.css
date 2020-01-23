@@ -11,14 +11,33 @@ body
     background: black
 }
 
-.loading 
+.loadingBorder
 {
-    position: relative;
+    position: absolute;
+    width: 300px;
+    height: 7px;
+    border: 2px solid white;
+    top: 50%;
+    left: 38%;
 }
 
+.loadingBar
+{
+    position: absolute;
+    width: 0px;
+    height: 7px;
+    background: white;
+    animation: loadingBar 2.7s cubic-bezier(0.91, 1.05, 1, 1) infinite;
+}
 
+@keyframes loadingBar 
+{
+    0% {width:0%;}
+    50% {width:50%;}
+    100% {width:100%;}
+}
 
-
+/*
 .circle 
 {
     position: absolute;
@@ -41,7 +60,7 @@ body
 {
     border: #dfdfdf 1.85px solid;
     box-shadow: 0 0 1em white ;
-    transition-delay: 3s;
+    transition-delay: 3s;   
 }
 
 .circlePos2
@@ -99,3 +118,5 @@ body
     border: #dfdfdf 1.85px solid;
     box-shadow: 0 0 1em white ;
 }
+
+*/
