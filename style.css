@@ -11,12 +11,13 @@ body
     
 }
 /* LOADING  */
+/*  Add later
 .loadingText 
 {
     position: absolute;
     color: white;
     top: 34%;
-    left: 44%;
+    left: 44.2%;
     font-size: 30pt;
     font-family: Open Sans Condense;
     font-style:italic;
@@ -26,6 +27,7 @@ body
     position: absolute;
         
 }
+*/
 .loadingBorder
 {
     position: absolute;
@@ -33,7 +35,11 @@ body
     height: 7px;
     border: 2px solid white;
     top: 50%;
-    left: 38%;
+    left: 40.2%;
+    animation: willDisappear 0.7s;
+    animation-fill-mode: forwards;
+    animation-delay:2.8s;
+    will-change: auto;
 }
 
 .loadingBar
@@ -42,7 +48,15 @@ body
     width: 0px;
     height: 7px;
     background: white;
-    animation: loadingBar 2.7s cubic-bezier(0.91, 1.05, 1, 1) infinite;
+    animation: loadingBar 2.7s cubic-bezier(0.91, 1.05, 1, 1);
+    animation-fill-mode: forwards;
+    will-change: auto;
+}
+
+@keyframes willDisappear 
+{
+   0% {opacity:100%;}
+   100% {opacity:0%;}
 }
 
 @keyframes loadingBar 
